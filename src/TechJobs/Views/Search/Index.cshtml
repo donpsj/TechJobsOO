@@ -21,10 +21,9 @@
 
     <p>
         <label asp-for="Value"></label>
-        <input asp-for="Value" />
-    </p>
-
-    <input type="submit" value="Search" />
+        <input asp-for="Value" /> @ViewBag.message
+   </p>
+   <input type="submit" value="Search" />
 </form>
 
 <hr />
